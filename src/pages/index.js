@@ -10,6 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi Bridge!</h1>
+    <h2>THIS IS A TEST</h2>
     <p>This is the gatsby boilerplate</p>
     
     <div style={{ maxWidth: `800px`, marginBottom: `6rem`, position:`relative` }}>
@@ -21,6 +22,7 @@ const IndexPage = () => (
      
 
     </div>
+
     <Link className="navLink" to="/page-2/">Go to page 2</Link>
   </Layout>
 )
