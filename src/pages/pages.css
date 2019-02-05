@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+.buzz {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.buzz1 {
+    background: lime;
+    position:absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.buzz2 {
+    background: salmon;
+    position:absolute;
+    bottom: -20%;
+    left: 5%;
+}
+
+.buzz3 {
+    background: plum;
+    position:absolute;
+    top: -8%;
+    right: 5%;
+}
+
+.buzz4 {
+    background: lightblue;
+    position:absolute;
+    bottom: 34%;
+    right: -2%;
+}
+
+.commandLine {
+    background: lightcyan;
+    padding: 20px 0px;
+    margin: 5px;
+    width: 40%;
+}
+
+.navLink {
+    background: plum;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 250px;
+    padding: 10px 5px;
+    margin: 5px;
+  
+}
